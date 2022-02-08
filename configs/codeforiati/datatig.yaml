@@ -1,0 +1,19 @@
+title: Code For IATI
+description: A mirror of the data at https://codeforiati.org/
+types:
+- id: projects
+  directory: _projects
+  fields:
+  - id: title
+    key: title
+    title: Title
+  - id: tags
+    key: tags
+    title: Tags
+  - id: link
+    key: link
+    title: Link
+  json_schema: schema.json
+githost:
+  url: codeforIATI/codeforiati.github.io
+  primary_branch: gh-pages
