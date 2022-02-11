@@ -1,0 +1,33 @@
+title: Up For Grabs
+description: A mirror of the data at https://up-for-grabs.net/
+types:
+- id: projects
+  directory: _data/projects
+  fields:
+  - id: name
+    key: name
+    title: Name
+  - id: desc
+    key: desc
+    title: Description
+  - id: site
+    key: site
+    title: Site
+  - id: tags
+    key: tags
+    title: tags
+  - id: upforgrabs_name
+    key: upforgrabs/name
+    title: Up For Grabs - Name
+  - id: upforgrabs_link
+    key: upforgrabs/link
+    title: Up For Grabs - Link
+  - id: stats_issue_count
+    key: stats/issue-count
+    title: Stats - Issue Count
+  - id: stats_last_updated
+    key: stats/last-updated
+    title: Stats - Last Updated
+githost:
+  url: up-for-grabs/up-for-grabs.net
+  primary_branch: gh-pages
