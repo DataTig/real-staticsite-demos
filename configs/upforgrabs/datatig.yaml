@@ -15,7 +15,7 @@ types:
     title: Site
   - id: tags
     key: tags
-    title: tags
+    title: Tags
   - id: upforgrabs_name
     key: upforgrabs/name
     title: Up For Grabs - Name
