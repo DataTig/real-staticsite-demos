@@ -13,6 +13,7 @@ types:
   - id: homepage
     key: homepage
     title: Homepage
+    type: url
   - id: language
     key: language
     title: Language
@@ -28,6 +29,7 @@ types:
   - id: startertemplaterepo
     key: startertemplaterepo
     title: Starter Template Repo
+  default_format: md
 githost:
   url: jamstack/jamstack.org
   primary_branch: main

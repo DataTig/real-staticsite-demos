@@ -13,7 +13,9 @@ types:
   - id: link
     key: link
     title: Link
+    type: url
   json_schema: schema.json
+  default_format: md
 githost:
   url: codeforIATI/codeforiati.github.io
   primary_branch: gh-pages

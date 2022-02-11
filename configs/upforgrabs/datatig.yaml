@@ -13,6 +13,7 @@ types:
   - id: site
     key: site
     title: Site
+    type: url
   - id: tags
     key: tags
     title: Tags
@@ -22,12 +23,14 @@ types:
   - id: upforgrabs_link
     key: upforgrabs/link
     title: Up For Grabs - Link
+    type: url
   - id: stats_issue_count
     key: stats/issue-count
     title: Stats - Issue Count
   - id: stats_last_updated
     key: stats/last-updated
     title: Stats - Last Updated
+  default_format: yaml
 githost:
   url: up-for-grabs/up-for-grabs.net
   primary_branch: gh-pages
