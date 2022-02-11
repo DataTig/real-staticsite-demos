@@ -1,0 +1,33 @@
+title: Jamstack
+description: A mirror of the data at https://jamstack.org/
+types:
+- id: generators
+  directory: src/site/generators
+  fields:
+  - id: title
+    key: title
+    title: Title
+  - id: repo
+    key: repo
+    title: Repo
+  - id: homepage
+    key: homepage
+    title: Homepage
+  - id: language
+    key: language
+    title: Language
+  - id: license
+    key: license
+    title: License
+  - id: templates
+    key: templates
+    title: Templates
+  - id: description
+    key: description
+    title: Description
+  - id: startertemplaterepo
+    key: startertemplaterepo
+    title: Starter Template Repo
+githost:
+  url: jamstack/jamstack.org
+  primary_branch: main

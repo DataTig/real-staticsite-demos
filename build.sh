@@ -11,13 +11,29 @@ if [ -d repos/codeforiati ]; then
   cd ../..
 else
   cd repos
-  git clone https://github.com/codeforIATI/codeforiati.github.io.git codeforiati
+  git clone --branch gh-pages https://github.com/codeforIATI/codeforiati.github.io.git codeforiati
   cd ..
 fi
 
 cp -r configs/codeforiati/* repos/codeforiati/
 
 python -m datatig.cli build repos/codeforiati --staticsiteoutput out/codeforiati --staticsiteurl /codeforiati
+
+echo "========================================================================  JAMSTACK"
+
+if [ -d repos/jamstack ]; then
+  cd repos/jamstack
+  git pull
+  cd ../..
+else
+  cd repos
+  git clone --branch main https://github.com/jamstack/jamstack.org jamstack
+  cd ..
+fi
+
+cp -r configs/jamstack/* repos/jamstack/
+
+python -m datatig.cli build repos/jamstack --staticsiteoutput out/jamstack --staticsiteurl /jamstack
 
 echo "========================================================================  ORGID"
 
@@ -27,7 +43,7 @@ if [ -d repos/orgid ]; then
   cd ../..
 else
   cd repos
-  git clone https://github.com/org-id/register.git orgid
+  git clone --branch main  https://github.com/org-id/register.git orgid
   cd ..
 fi
 
