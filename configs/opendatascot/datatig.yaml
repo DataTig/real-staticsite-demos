@@ -33,5 +33,5 @@ types:
     title: title
   default_format: md
 githost:
-  url: OpenDataScotland/the_od_bods
-  primary_branch: main
+  url: OpenDataScotland/jkan
+  primary_branch: gh-pages

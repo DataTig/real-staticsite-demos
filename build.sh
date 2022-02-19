@@ -43,7 +43,7 @@ if [ -d repos/opendatascot ]; then
   cd ../..
 else
   cd repos
-  git clone --branch main https://github.com/OpenDataScotland/the_od_bods.git opendatascot
+  git clone --branch gh-pages https://github.com/OpenDataScotland/jkan.git opendatascot
   cd ..
 fi
 
