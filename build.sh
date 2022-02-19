@@ -35,6 +35,22 @@ cp -r configs/jamstack/* repos/jamstack/
 
 python -m datatig.cli build repos/jamstack --staticsiteoutput out/jamstack --staticsiteurl /jamstack
 
+echo "========================================================================  OPENDATASCOT"
+
+if [ -d repos/opendatascot ]; then
+  cd repos/opendatascot
+  git pull
+  cd ../..
+else
+  cd repos
+  git clone --branch main https://github.com/OpenDataScotland/the_od_bods.git opendatascot
+  cd ..
+fi
+
+cp -r configs/opendatascot/* repos/opendatascot/
+
+python -m datatig.cli build repos/opendatascot --staticsiteoutput out/opendatascot --staticsiteurl /opendatascot
+
 echo "========================================================================  ORGID"
 
 if [ -d repos/orgid ]; then

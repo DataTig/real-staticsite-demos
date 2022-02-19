@@ -1,0 +1,37 @@
+title: Opendata.scot
+description: A mirror of the data at https://opendata.scot/
+types:
+- id: datasets
+  directory: _datasets
+  fields:
+  - id: category
+    key: category
+    title: category
+  - id: date_created
+    key: date_created
+    title: date_created
+  - id: date_updated
+    key: date_updated
+    title: date_updated
+  - id: license
+    key: license
+    title: license
+  - id: maintainer
+    key: maintainer
+    title: maintainer
+  - id: notes
+    key: notes
+    title: notes
+  - id: organization
+    key: organization
+    title: organization
+  - id: schema
+    key: schema
+    title: schema
+  - id: title
+    key: title
+    title: title
+  default_format: md
+githost:
+  url: OpenDataScotland/the_od_bods
+  primary_branch: main
