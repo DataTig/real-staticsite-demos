@@ -17,6 +17,7 @@ types:
   - id: tags
     key: tags
     title: Tags
+    type: list-strings
   - id: upforgrabs_name
     key: upforgrabs/name
     title: Up For Grabs - Name

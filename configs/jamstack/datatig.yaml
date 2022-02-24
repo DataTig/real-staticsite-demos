@@ -17,12 +17,15 @@ types:
   - id: language
     key: language
     title: Language
+    type: list-strings
   - id: license
     key: license
     title: License
+    type: list-strings
   - id: templates
     key: templates
     title: Templates
+    type: list-strings
   - id: description
     key: description
     title: Description

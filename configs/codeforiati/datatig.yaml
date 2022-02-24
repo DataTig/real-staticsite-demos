@@ -10,6 +10,7 @@ types:
   - id: tags
     key: tags
     title: Tags
+    type: list-strings
   - id: link
     key: link
     title: Link
