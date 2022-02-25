@@ -33,6 +33,8 @@ types:
     key: startertemplaterepo
     title: Starter Template Repo
   default_format: md
+  list_fields:
+    - title
 githost:
   url: jamstack/jamstack.org
   primary_branch: main

@@ -32,6 +32,8 @@ types:
     key: stats/last-updated
     title: Stats - Last Updated
   default_format: yaml
+  list_fields:
+    - name
 githost:
   url: up-for-grabs/up-for-grabs.net
   primary_branch: gh-pages

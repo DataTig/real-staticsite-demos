@@ -33,6 +33,8 @@ types:
     key: title
     title: title
   default_format: md
+  list_fields:
+    - title
 githost:
   url: OpenDataScotland/jkan
   primary_branch: gh-pages

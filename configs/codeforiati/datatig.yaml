@@ -17,6 +17,8 @@ types:
     type: url
   json_schema: schema.json
   default_format: md
+  list_fields:
+    - title
 githost:
   url: codeforIATI/codeforiati.github.io
   primary_branch: gh-pages
