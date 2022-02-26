@@ -10,6 +10,7 @@ types:
   - id: repo
     key: repo
     title: Repo
+    type: url
   - id: homepage
     key: homepage
     title: Homepage
