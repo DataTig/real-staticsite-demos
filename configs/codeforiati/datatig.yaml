@@ -15,7 +15,10 @@ types:
     key: link
     title: Link
     type: url
-  json_schema: schema.json
+  - id: hidden
+    key: hidden
+    title: Hidden
+    # type: boolean
   default_format: md
   list_fields:
     - title
