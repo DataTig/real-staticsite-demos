@@ -65,6 +65,20 @@ fi
 
 python -m datatig.cli build repos/orgid --staticsiteoutput out/orgid --staticsiteurl /orgid
 
+echo "========================================================================  REGISTER"
+
+if [ -d repos/register ]; then
+  cd repos/register
+  git pull
+  cd ../..
+else
+  cd repos
+  git clone --branch main  https://github.com/DataTig/site-datatig-register.git register
+  cd ..
+fi
+
+python -m datatig.cli build repos/register --staticsiteoutput out/register --staticsiteurl /register
+
 echo "========================================================================  UPFORGRABS"
 
 if [ -d repos/upforgrabs ]; then
