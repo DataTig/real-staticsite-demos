@@ -1,0 +1,52 @@
+title: End Of Life
+description: A mirror of the data at https://endoflife.date/
+types:
+- id: products
+  directory: products
+  fields:
+  - id: permalink
+    key: permalink
+    title: permalink
+  - id: layout
+    key: layout
+    title: layout
+  - id: title
+    key: title
+    title: title
+  - id: command
+    key: command
+    title: command
+  - id: releasePolicyLink
+    key: releasePolicyLink
+    title: releasePolicyLink
+    type: url
+  - id: permalink
+    key: permalink
+    title: permalink
+  - id: activeSupportColumn
+    key: activeSupportColumn
+    title: activeSupportColumn
+    # type: boolean
+  - id: releaseDateColumn
+    key: releaseDateColumn
+    title: releaseDateColumn
+    # type: boolean
+  - id: sortReleasesBy
+    key: sortReleasesBy
+    title: sortReleasesBy
+  - id: changelogTemplate
+    key: changelogTemplate
+    title: changelogTemplate
+    type: url
+  - id: iconSlug
+    key: iconSlug
+    title: iconSlug
+  - id: eolColumn
+    key: eolColumn
+    title: eolColumn
+  default_format: md
+  list_fields:
+    - title
+githost:
+  url: endoflife-date/endoflife.date
+  primary_branch: master
