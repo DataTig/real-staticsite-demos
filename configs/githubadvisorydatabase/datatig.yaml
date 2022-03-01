@@ -1,0 +1,43 @@
+title: Github.com Advisory Database
+description: A mirror of the data at https://github.com/github/advisory-database
+types:
+- id: advisories
+  directory: advisories
+  fields:
+  - id: schema_version
+    key: schema_version
+    title: schema_version
+  - id: id
+    key: id
+    title: id
+  - id: modified
+    key: modified
+    title: modified
+    # type: date
+  - id: published
+    key: published
+    title: published
+    # type: date
+  - id: summary
+    key: summary
+    title: summary
+  - id: details
+    key: details
+    title: details
+  - id: database_specific_cwe_ids
+    key: database_specific/cwe_ids
+    title: database_specific / cwe_ids
+    type: list-strings
+  - id: database_specific_severity
+    key: database_specific/severity
+    title: database_specific / severity
+  - id: database_specific_github_reviewed
+    key: database_specific/github_reviewed
+    title: database_specific / github_reviewed
+    # type: boolean
+  default_format: json
+  list_fields:
+    - summary
+githost:
+  url: github/advisory-database
+  primary_branch: main

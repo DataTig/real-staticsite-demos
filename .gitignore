@@ -1,9 +1,11 @@
+/repos
+/.ve
+# Entries below should be alphabetically sorted
 /out/codeforiati
 /out/endoflifedate
+/out/githubadvisorydatabase
 /out/jamstack
 /out/opendatascot
 /out/orgid
 /out/register
 /out/upforgrabs
-/repos
-/.ve

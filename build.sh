@@ -3,6 +3,8 @@
 
 mkdir -p repos
 
+# Entries below should be alphabetically sorted
+
 echo "========================================================================  CODE FOR IATI"
 
 if [ -d repos/codeforiati ]; then
@@ -22,6 +24,9 @@ python -m datatig.cli build repos/codeforiati --staticsiteoutput out/codeforiati
 echo "========================================================================  END OF LIFE"
 
 source  build.endoflifedate.sh
+echo "========================================================================  GITHUB ADVISORY DATABASE"
+
+source  build.githubadvisorydatabase.sh
 
 echo "========================================================================  JAMSTACK"
 
