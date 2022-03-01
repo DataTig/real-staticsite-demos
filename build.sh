@@ -19,6 +19,10 @@ cp -r configs/codeforiati/* repos/codeforiati/
 
 python -m datatig.cli build repos/codeforiati --staticsiteoutput out/codeforiati --staticsiteurl /codeforiati
 
+echo "========================================================================  END OF LIFE"
+
+source  build.endoflifedate.sh
+
 echo "========================================================================  JAMSTACK"
 
 if [ -d repos/jamstack ]; then
