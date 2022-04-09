@@ -18,7 +18,7 @@ types:
   - id: hidden
     key: hidden
     title: Hidden
-    # type: boolean
+    type: boolean
   default_format: md
   list_fields:
     - title

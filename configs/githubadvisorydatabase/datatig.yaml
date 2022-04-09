@@ -13,11 +13,11 @@ types:
   - id: modified
     key: modified
     title: modified
-    # type: date
+    type: date
   - id: published
     key: published
     title: published
-    # type: date
+    type: date
   - id: summary
     key: summary
     title: summary

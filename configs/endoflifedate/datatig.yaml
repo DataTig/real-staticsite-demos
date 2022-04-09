@@ -26,11 +26,11 @@ types:
   - id: activeSupportColumn
     key: activeSupportColumn
     title: activeSupportColumn
-    # type: boolean
+    type: boolean
   - id: releaseDateColumn
     key: releaseDateColumn
     title: releaseDateColumn
-    # type: boolean
+    type: boolean
   - id: sortReleasesBy
     key: sortReleasesBy
     title: sortReleasesBy
