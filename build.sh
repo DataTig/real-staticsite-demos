@@ -13,9 +13,8 @@ echo "========================================================================  
 
 source  build.endoflifedate.sh
 
-echo "========================================================================  GITHUB ADVISORY DATABASE"
-
-source  build.githubadvisorydatabase.sh
+#echo "========================================================================  GITHUB ADVISORY DATABASE"
+#source  build.githubadvisorydatabase.sh
 
 echo "========================================================================  JAMSTACK"
 
