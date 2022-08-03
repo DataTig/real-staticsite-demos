@@ -13,3 +13,4 @@ else
 fi
 
 python -m datatig.cli build repos/orgid --staticsiteoutput out/orgid --staticsiteurl /orgid
+python -m datatig.cli versionedbuild repos/orgid --staticsiteoutput out/orgid/versioned --staticsiteurl /orgid/versioned --refs "main" --default-ref main
