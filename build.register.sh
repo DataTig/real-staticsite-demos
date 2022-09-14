@@ -13,5 +13,5 @@ else
 fi
 
 python -m datatig.cli build repos/register --staticsiteoutput out/register --staticsiteurl /register
-python -m datatig.cli versionedbuild repos/register --staticsiteoutput out/register/versioned --staticsiteurl /register/versioned --refs "main" --default-ref main
+python -m datatig.cli versionedbuild repos/register --staticsiteoutput out/register/versioned --staticsiteurl /register/versioned --refs "main" --defaultref main
 
