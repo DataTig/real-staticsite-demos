@@ -5,6 +5,10 @@ mkdir -p repos
 
 # Entries below should be alphabetically sorted
 
+echo "========================================================================  Civic Tech Club"
+
+source  build.civictechclub.sh
+
 echo "========================================================================  CODE FOR IATI"
 
 source  build.codeforiati.sh

@@ -1,0 +1,30 @@
+title: Civictech Club
+description: A mirror of the data at https://civictech.club/
+types:
+- id: people
+  directory: _people
+  fields:
+  - id: name
+    key: name
+    title: Name
+  - id: account
+    key: account
+    title: Account
+  - id: link
+    key: link
+    title: Link
+    type: url
+  - id: image
+    key: image
+    title: Image
+    type: url
+  - id: country
+    key: country
+    title: Country
+  default_format: yaml
+  list_fields:
+    - name
+    - account
+githost:
+  url: JordanHatch/civictech.club
+  primary_branch: main
